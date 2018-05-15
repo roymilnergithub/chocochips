@@ -38,9 +38,7 @@
 						<div class="col-xs-12">
 							<!-- Imagen -->
 							<link href="#"><img class="image-custom" src="img/fondo.jpg" width="100%" hight="250px"></link>
-							<br></br>
-							
-
+							<br></br><br>
 						</div>
 						<div class="col-xs-3">
 							<!-- Imagen -->
@@ -111,7 +109,7 @@
 					<div class="col-xs-4">
 						<h4 align="center">REDES SOCIALES</h4>
 						<ul>
-							<li><p align="center">facebook.com/heladeriachocochips</p></li>
+							<li><p align="center"><a href="">facebook.com/heladeriachocochips</a></p></li>
 							<li><p align="center">Arequipa, Peru</p></li>
 						</ul>
 					</div>
@@ -149,9 +147,7 @@
 				</div>
 			</div>
 		</section>
-		
-
-		<hr noshade="noshade" />
+		<br><br>
 
 		<?php include 'inc/footer.php'; ?>
 		<?php include 'inc/footer_common.php'; ?>
