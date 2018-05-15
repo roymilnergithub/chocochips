@@ -1,0 +1,147 @@
+/******************* 
+* Ajustes generales 
+*******************/
+
+body,html {
+	margin-top: 0px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul li {
+	margin-bottom: 5px;
+	
+}
+
+#descripcion-producto a{
+	font-size: 16px;
+	font-size: 1.6rem; 
+	color: #000;
+	line-height:20px;
+	margin-top:10px;
+	
+}
+
+#descripcion-producto a:hover {
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #00BFFF;
+	text-decoration: none;
+}
+
+#descripcion-producto a p{
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: #555;
+}
+
+#descripcion-producto a:hover p{
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: #555;
+	text-decoration: none;
+}
+
+.price{
+	font-family:"SQMarket-regular","Helvetica Neue",sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	
+	color:#00bda4;
+}
+.texto{
+	font-family:"SQMarket-regular","Helvetica Neue",sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	font-size: 1.4rem;
+	color:#9dadb9;
+}
+
+.image-custom{
+	background-color:#fff;
+	border-radius:4px;
+	box-shadow:0 0 1px rgba(0,0,0,0.2);
+	
+}
+
+.online-store
+{
+	font-family:"SQMarket-regular","Helvetica Neue",sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+
+}
+
+#descripcion-empresa a p{
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: #9dadb9;
+	text-decoration: none;
+}
+
+#descripcion-empresa a:hover p{
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: #9dadb9;
+	
+	
+}
+.texto2{
+	font-family:"SQMarket-regular","Helvetica Neue",sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	color:#9dadb9;
+
+}
+.pickup{
+	color:#00bda4;
+}
+
+/* *************************************
+* *********** Main Navigation **********
+* ************************************ */
+#main-menu {
+	
+}
+
+#main-menu a {
+	color: #aaa;
+}
+
+#main-menu a:hover {
+	color: #00bda4;
+}
+
+#main-menu.nav-pills>li.active>a, 
+#main-menu.nav-pills>li.active>a:hover, 
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover {
+	background: none;
+}
+
+#main-menu.nav-pills>li.active>a, 
+#main-menu.nav-pills>li.active>a:hover, 
+#main-menu.nav-pills>li.active>a:focus {
+	color: #00bda4;	
+}
+
+#main-menu.nav .open>a, 
+#main-menu.nav .open>a:hover, 
+#main-menu.nav .open>a:focus {
+	background: none;
+}
+
+/* *************************************
+* *********** Others **********
+* ************************************ */
+#services{
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+
+
