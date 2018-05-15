@@ -5,44 +5,25 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
-		<article class="principal">
-			<div class="container">
-
-				<div class="row">
-					<div class="col-xs-12">
-						<!--
-						<p align="left"><link ><img src="img/fondo.jpg" width="100%" alt=""></link></p>
-						-->
-					</div>
-
-				</div>
-			</div>
-		</article>
 		<!--
 		<hr noshade="noshade" />
 		<?php include 'inc/menu.php'; ?>
 		<hr noshade="noshade" />
 		-->
 
-		<section id="products">
-		
+		<section>
 				<!-- HELADERIA CHOCOCHIPS --> 
 				<div class="container" >
-					<div class="row" id="services">
-						<div class="col-xs-12">
-							<!--<h2>HELADERIA CHOCOCHIPS<h2> 	-->
-						</div>
-					</div>
 					<div class="row">
 						<div class="col-xs-12">
 							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/fondo.jpg" width="100%" hight="250px"></link>
-							<br></br><br>
+							<br>
+							<link href="#"><img class="image-custom" src="img/fondo2.jpg" width="100%"></link>
+							<br></br>
 						</div>
-						<div class="col-xs-3">
+						<div class="col-md-3 col-sm-6 col-xs-6">
 							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/1.jpg" width="275" ></link>
+							<link href="#"><img class="image-custom" src="img/1.jpg" width="100%"></link>
 							<br></br>
 							<ul id="descripcion-producto">
 								<li><a href="#">Galleta de Oreo</a></li>
@@ -53,9 +34,9 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-xs-3">
+						<div class="col-md-3 col-sm-6 col-xs-6">
 							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/2.jpg" width="270"></link>
+							<link href="#"><img class="image-custom" src="img/2.jpg" width="100%"></link>
 							<br></br>
 							<ul id="descripcion-producto">
 								<li><a href="#">Galleta chocochips</a></li>
@@ -66,9 +47,9 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-xs-3">
+						<div class="col-md-3 col-sm-6 col-xs-6">
 							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/5.jpg" width="260" height="250"></link>
+							<link href="#"><img class="image-custom" src="img/5.jpg" width="100%"></link>
 							<br></br>
 							<ul id="descripcion-producto">
 								<li><a href="#">Galleta de Chocolate</a></li>
@@ -79,9 +60,9 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-xs-3">
+						<div class="col-md-3 col-sm-6 col-xs-6">
 							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/4.jpg" width="260" height="250"></link>
+							<link href="#"><img class="image-custom" src="img/4.jpg" width="100%"></link>
 							<br></br>
 							<ul id="descripcion-producto">
 								<li><a href="#">Galleta con 2 sabores de helado</a></li>
@@ -106,36 +87,38 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-xs-4">
+					<div class="col-md-4 col-sm-6 col-xs-12">
 						<h4 align="center">REDES SOCIALES</h4>
 						<ul>
 							<li><p align="center"><a href="">facebook.com/heladeriachocochips</a></p></li>
 							<li><p align="center">Arequipa, Peru</p></li>
 						</ul>
 					</div>
-					<div class="col-xs-4">
+					<div class="col-md-4 col-sm-6 col-xs-12">
 						<section id="agenda">
 							<h4 align="center">HORARIO DE ATENCION</h4>
-							<dl class="dl-horizontal">
-								<dt>Lunes</dt>
+							<dl class="col-md-5 col-sm-5 col-xs-5">
+								<dt align="right">Lunes</dt>
+								<dt align="right">Martes</dt>
+								<dt align="right">Miercoles</dt>
+								<dt align="right">Jueves</dt>
+								<dt align="right">Viernes</dt>
+								<dt align="right">Sabado</dt>
+								<dt align="right">Domingo</dt>
+							</dl>
+							<dl class="col-md-7 col-sm-7 col-xs-7">
 								<dd>10:00 AM – 21:00 PM</dd>
-								<dt>Martes</dt>
 								<dd>10:00 AM – 21:00 PM</dd>
-								<dt>Miercoles</dt>
 								<dd>10:00 AM – 21:00 PM</dd>
-								<dt>Jueves</dt>
 								<dd>10:00 AM – 21:00 PM</dd>
-								<dt>Viernes</dt>
 								<dd>10:00 AM – 21:00 PM</dd>
-								<dt>Sabado</dt>
 								<dd>10:00 AM – 21:00 PM</dd>
-								<dt>Domingo</dt>
 								<dd>09:00 AM – 13:00 PM</dd>
 							</dl>
 						</section>
 					</div>
 
-					<div class="col-xs-4">
+					<div class="col-md-4 col-sm-6 col-xs-12">
 						<h4 align="center">CONTÁCTANOS</h4>
 						<ul>
 							<li><p align="center">heladeriachocochips@gmail.com</p></li>
@@ -149,7 +132,5 @@
 		</section>
 		<br><br>
 
-		<?php include 'inc/footer.php'; ?>
-		<?php include 'inc/footer_common.php'; ?>
 	</body>
 </html>
