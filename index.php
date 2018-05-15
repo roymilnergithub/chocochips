@@ -32,7 +32,7 @@
             </div>
 
             
-            <div id="principal" class="col-md-9 col-sm-4 col-xs-12" >
+            <div id="principal" class="col-md-9 col-sm-6 col-xs-12" >
                  Loading...
                 
                 <!-- 1. SALUD -->
@@ -42,7 +42,7 @@
                   <h3> HELADERIA CHOCOCHIPS </h3>
                   <hr>
 
-                  <div class="col-md-4 col-sm-4 col-xs-12" >
+                  <div class="col-md-4 col-sm-12 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/galletas/chocochips.jpg" width="100%"></link>
                     <br></br>
@@ -52,7 +52,7 @@
                     </ul>
 
                   </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12" >
+                  <div class="col-md-4 col-sm-12 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/galletas/oreo.jpg" width="100%"></link>
                     <br></br>
@@ -62,7 +62,7 @@
                     </ul>
 
                   </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12" >
+                  <div class="col-md-4 col-sm-12 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/galletas/chocolate.jpg" width="85%"></link>
                     <br></br>
@@ -75,7 +75,7 @@
               </div>
               <div class="row" >
 
-                  <div class="col-md-4 col-sm-6 col-xs-12" >
+                  <div class="col-md-4 col-sm-12 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/icesandwich/icesandwich2.jpg" width="100%" ></link>
                     
@@ -85,7 +85,7 @@
                     </ul>
 
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12" >
+                  <div class="col-md-4 col-sm-12 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/icesandwich/icesandwich.jpg" width="100%" ></link>
                     
