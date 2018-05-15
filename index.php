@@ -1,136 +1,128 @@
 <!doctype html>
-<html>
-	<head>
-		<?php include 'inc/head_common.php'; ?>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<!--
-		<hr noshade="noshade" />
-		<?php include 'inc/menu.php'; ?>
-		<hr noshade="noshade" />
-		-->
+<html lang="es">
+  <!-- HEAD -->
+  <head>
+    <title>Infoproducto</title>
+      <?php include 'inc/head_common.php'; ?>
 
-		<section>
-				<!-- HELADERIA CHOCOCHIPS --> 
-				<div class="container" >
-					<div class="row">
-						<div class="col-xs-12">
-							<!-- Imagen -->
-							<br>
-							<link href="#"><img class="image-custom" src="img/fondo2.jpg" width="100%"></link>
-							<br></br>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/1.jpg" width="100%"></link>
-							<br></br>
-							<ul id="descripcion-producto">
-								<li><a href="#">Galleta de Oreo</a></li>
-								<li><a href="#">
-									<span class="price"> S/1.50</span> 
-									<span class="texto"> Disponible 100 unidades</span>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/2.jpg" width="100%"></link>
-							<br></br>
-							<ul id="descripcion-producto">
-								<li><a href="#">Galleta chocochips</a></li>
-								<li><a href="#">
-									<span class="price"> S/1.50</span> 
-									<span class="texto"> Disponible 100 unidades</span>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/5.jpg" width="100%"></link>
-							<br></br>
-							<ul id="descripcion-producto">
-								<li><a href="#">Galleta de Chocolate</a></li>
-								<li><a href="#">
-									<span class="price"> S/7.50</span> 
-									<span class="texto"> Disponible 100 unidades</span>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<!-- Imagen -->
-							<link href="#"><img class="image-custom" src="img/4.jpg" width="100%"></link>
-							<br></br>
-							<ul id="descripcion-producto">
-								<li><a href="#">Galleta con 2 sabores de helado</a></li>
-								<li><a href="#">
-									<span class="price"> S/10.50</span> 
-									<span class="texto"> Disponible 100 unidades</span>
-									</a>
-								</li>
-							</ul>
-						</div>
-						
-					</div>
-				</div>
-		</section>
+      <link rel="stylesheet" href="/css/workshops.css">  <meta charset="utf-8">
+      <link rel="stylesheet" href="./css/bootstrap.css">
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="./js/jquery-1.11.1.js" type="text/javascript"></script> 
+      
+  </head>
 
-		<hr noshade="noshade" />
-		<br>
+<body>
 
-		<!-- FOOTER -->
+  <?php include 'inc/header.php'; ?>
+  
+        <div id="page-wrap" class="container">
 
-		<section id="table-of-contents">
-			<div class="container">
-				<div class="row">
+          <div id="contenedor" class="row">
+            <div id="contenedor_c" class="col-xs-3" >
+              
+              <br><br><br><br>
+              <h3>CATEGORIAS</h3> <hr>
 
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<h4 align="center">REDES SOCIALES</h4>
-						<ul>
-							<li><p align="center"><a href="">facebook.com/heladeriachocochips</a></p></li>
-							<li><p align="center">Arequipa, Peru</p></li>
-						</ul>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<section id="agenda">
-							<h4 align="center">HORARIO DE ATENCION</h4>
-							<dl class="col-md-5 col-sm-5 col-xs-5">
-								<dt align="right">Lunes</dt>
-								<dt align="right">Martes</dt>
-								<dt align="right">Miercoles</dt>
-								<dt align="right">Jueves</dt>
-								<dt align="right">Viernes</dt>
-								<dt align="right">Sabado</dt>
-								<dt align="right">Domingo</dt>
-							</dl>
-							<dl class="col-md-7 col-sm-7 col-xs-7">
-								<dd>10:00 AM – 21:00 PM</dd>
-								<dd>10:00 AM – 21:00 PM</dd>
-								<dd>10:00 AM – 21:00 PM</dd>
-								<dd>10:00 AM – 21:00 PM</dd>
-								<dd>10:00 AM – 21:00 PM</dd>
-								<dd>10:00 AM – 21:00 PM</dd>
-								<dd>09:00 AM – 13:00 PM</dd>
-							</dl>
-						</section>
-					</div>
+                <a href="#" id="helados" class="enlace">Helados</a><br>
+                <a href="#" id="galletas">Galletas</a><br>
+                <a href="#" id="icesandwich" >Ice Sandwich</a><br>
+                <a href="#" id="milkshakes" >Milkshakes</a><br>
+            </div>
 
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<h4 align="center">CONTÁCTANOS</h4>
-						<ul>
-							<li><p align="center">heladeriachocochips@gmail.com</p></li>
-							<li><p align="center">946727048</p></li>
-						</ul>
+            
+            <div id="principal" class="col-xs-9" >
+                 Aquí se cargará el contenido de cada página del menú a la que invoques en cada link 
+                
+                <!-- 1. SALUD -->
+                <!-- Primera Linea -->
+                <div class="row" >
+                    <br><br><br>
+                  <h3> HELADERIA CHOCOCHIPS </h3>
+                  <hr>
 
-					</div>
+                  <div class="col-xs-4 ">
+                    <!-- Imagen -->
+                    <link href="#"><img src="img/galletas/chocochips.jpg" width="100%"></link>
+                    <br></br>
+                    <ul id="descripcion-producto">
+                      <li>TALLER DE EJERCITACION DIARIA </li>
+                      <li><a href="#"> Precio: $49.00 </a> </li>
+                    </ul>
 
-				</div>
-			</div>
-		</section>
-		<br><br>
+                  </div>
+                  <div class="col-xs-4">
+                    <!-- Imagen -->
+                    <link href="#"><img src="img/galletas/oreo.jpg" width="100%"></link>
+                    <br></br>
+                    <ul id="descripcion-producto">
+                      <li>RUTINA PARA OBTENER ABDOMINALES </li>
+                      <li><a href="#"> Precio: $29.00 </a> </li>
+                    </ul>
 
-	</body>
+                  </div>
+                  <div class="col-xs-4">
+                    <!-- Imagen -->
+                    <link href="#"><img src="img/galletas/chocolate.jpg" width="85%"></link>
+                    <br></br>
+                    <ul id="descripcion-producto">
+                      <li>RUTINA PARA OBTENER ABDOMINALES </li>
+                      <li><a href="#"> Precio: $29.00 </a> </li>
+                    </ul>
+                  </div>
+                  
+                </div>
+
+
+                <div>
+                  <div class="col-xs-4 ">
+                    <!-- Imagen -->
+                    <link href="#"><img src="img/icesandwich/icesandwich2.jpg" width="100%" ></link>
+                    <br></br>
+                    <ul id="descripcion-producto">
+                      <li>ICE SANDWICH 1 BOLA </li>
+                      <li><a href="#"> 2 galletas + 1 sabor de helado </a> </li>
+                    </ul>
+
+                  </div>
+                  <div class="col-xs-4">
+                    <!-- Imagen -->
+                    <link href="#"><img src="img/icesandwich/icesandwich.jpg" width="100%" ></link>
+                    <br></br>
+                    <ul id="descripcion-producto">
+                      <li>ICE SANDWICH 2 BOLAS </li>
+                      <li><a href="#"> 2 galletas + 2 sabores de helado </a> </li>
+                    </ul>
+
+                  </div>
+                </div>
+                
+            </div>
+
+            
+
+          </div>        
+
+        </div>
+</body>
+
+  <?php include 'inc/footer.php'; ?>
+  <?php include 'inc/footer_common.php'; ?>
+
+    <script type="text/javascript">
+      $(document).ready(function() { 
+        $("#helados").click(function(event) { $("#principal").load('html/helados.html'); }); 
+        $("#galletas").click(function(event) { $("#principal").load('html/galletas.html'); }); 
+        $("#icesandwich").click(function(event) { $("#principal").load('html/icesandwich.html'); }); 
+        $("#milkshakes").click(function(event) { $("#principal").load('html/milkshakes.html'); }); 
+
+        $("#c_salud").click(function(event) { $("#principal").load('html/helados.html'); }); 
+        $("#c_cocina").click(function(event) { $("#principal").load('html/galletas.html'); }); 
+        $("#c_idiomas").click(function(event) { $("#principal").load('html/icesandwich.html'); }); 
+        $("#c_desarrollopersonal").click(function(event) { $("#principal").load('html/milkshakes.html'); }); 
+      }); 
+    </script>
+
 </html>
+
+
