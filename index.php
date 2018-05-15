@@ -6,8 +6,9 @@
       <?php include 'inc/head_common.php'; ?>
 
       <link rel="stylesheet" href="/css/workshops.css">  <meta charset="utf-8">
-      <link rel="stylesheet" href="./css/bootstrap.css">
-      <script src="./js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <script src="./js/jquery-1.11.1.js" type="text/javascript"></script> 
       
   </head>
@@ -46,8 +47,8 @@
                     <link href="#"><img src="img/galletas/chocochips.jpg" width="100%"></link>
                     <br></br>
                     <ul id="descripcion-producto">
-                      <li>TALLER DE EJERCITACION DIARIA </li>
-                      <li><a href="#"> Precio: $49.00 </a> </li>
+                      <li>GALLETA CHOCOCHIPS </li>
+                      <li><a href="#"> Precio: S/2.50 </a> </li>
                     </ul>
 
                   </div>
@@ -56,8 +57,8 @@
                     <link href="#"><img src="img/galletas/oreo.jpg" width="100%"></link>
                     <br></br>
                     <ul id="descripcion-producto">
-                      <li>RUTINA PARA OBTENER ABDOMINALES </li>
-                      <li><a href="#"> Precio: $29.00 </a> </li>
+                      <li>GALLETA OREO </li>
+                      <li><a href="#"> Precio: S/2.50 </a> </li>
                     </ul>
 
                   </div>
@@ -66,9 +67,10 @@
                     <link href="#"><img src="img/galletas/chocolate.jpg" width="85%"></link>
                     <br></br>
                     <ul id="descripcion-producto">
-                      <li>RUTINA PARA OBTENER ABDOMINALES </li>
-                      <li><a href="#"> Precio: $29.00 </a> </li>
+                      <li>GALLETA DE CHOCOLATE </li>
+                      <li><a href="#"> Precio: S/1.50 </a> </li>
                     </ul>
+
                   </div>
                   
                 </div>
