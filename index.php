@@ -20,7 +20,7 @@
         <div id="page-wrap" class="container">
 
           <div id="contenedor" class="row">
-            <div id="contenedor_c" class="col-xs-3" >
+            <div id="contenedor_c" class="col-md-3 col-sm-6 col-xs-12" >
               
               <br><br><br><br>
               <h3>CATEGORIAS</h3> <hr>
@@ -32,8 +32,8 @@
             </div>
 
             
-            <div id="principal" class="col-xs-9" >
-                 Aquí se cargará el contenido de cada página del menú a la que invoques en cada link 
+            <div id="principal" class="col-md-9 col-sm-4 col-xs-12" >
+                 Loading...
                 
                 <!-- 1. SALUD -->
                 <!-- Primera Linea -->
@@ -42,7 +42,7 @@
                   <h3> HELADERIA CHOCOCHIPS </h3>
                   <hr>
 
-                  <div class="col-xs-4 ">
+                  <div class="col-md-4 col-sm-4 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/galletas/chocochips.jpg" width="100%"></link>
                     <br></br>
@@ -52,7 +52,7 @@
                     </ul>
 
                   </div>
-                  <div class="col-xs-4">
+                  <div class="col-md-4 col-sm-4 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/galletas/oreo.jpg" width="100%"></link>
                     <br></br>
@@ -62,7 +62,7 @@
                     </ul>
 
                   </div>
-                  <div class="col-xs-4">
+                  <div class="col-md-4 col-sm-4 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/galletas/chocolate.jpg" width="85%"></link>
                     <br></br>
@@ -72,25 +72,23 @@
                     </ul>
 
                   </div>
-                  
-                </div>
+              </div>
+              <div class="row" >
 
-
-                <div>
-                  <div class="col-xs-4 ">
+                  <div class="col-md-4 col-sm-6 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/icesandwich/icesandwich2.jpg" width="100%" ></link>
-                    <br></br>
+                    
                     <ul id="descripcion-producto">
                       <li>ICE SANDWICH 1 BOLA </li>
                       <li><a href="#"> 2 galletas + 1 sabor de helado </a> </li>
                     </ul>
 
                   </div>
-                  <div class="col-xs-4">
+                  <div class="col-md-4 col-sm-6 col-xs-12" >
                     <!-- Imagen -->
                     <link href="#"><img src="img/icesandwich/icesandwich.jpg" width="100%" ></link>
-                    <br></br>
+                    
                     <ul id="descripcion-producto">
                       <li>ICE SANDWICH 2 BOLAS </li>
                       <li><a href="#"> 2 galletas + 2 sabores de helado </a> </li>

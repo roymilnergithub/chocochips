@@ -1,11 +1,11 @@
 <header id="main-header">
 	<div class= "container">
 		<div class="row">
-			<div id="startup" class="col-sm-3">
+			<div id="startup" class="col-md-3 col-sm-6 col-xs-12">
 				<a href="#"><b>Heladeria</b>Chocochips</a>
 			</div>
 
-			<div id="menu3" class="col-sm-9">
+			<div id="menu3" class="col-md-9 col-sm-6 hidden-xs">
 				<ul id="main-menu" class="nav nav-pills hidden-sm">
 
 					<li class="dropdown">
