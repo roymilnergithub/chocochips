@@ -17,28 +17,30 @@
 
   <?php include 'inc/header.php'; ?>
   
-        <div id="page-wrap" class="container">
+        <div id="page-wrap" class="container" style="width: 95%;">
 
           <div id="contenedor" class="row">
-            <div id="contenedor_c" class="col-md-3 col-sm-6 col-xs-12" >
+            <div id="contenedor_c" class="col-md-3 col-sm-12 col-xs-12" >
               
               <br><br><br><br>
               <h3>CATEGORIAS</h3> <hr>
 
-                <a href="#" id="helados" class="enlace">Helados</a><br>
-                <a href="#" id="galletas">Galletas</a><br>
-                <a href="#" id="icesandwich" >Ice Sandwich</a><br>
-                <a href="#" id="milkshakes" >Milkshakes</a><br>
+                <a href="#" id="helados" class="enlace col-md-12 col-sm-6 col-xs-6">Helados</a>
+                <a href="#" id="galletas" class="col-md-12 col-sm-6 col-xs-6">Galletas</a>
+                <a href="#" id="icesandwich" class="col-md-12 col-sm-6 col-xs-6">Ice Sandwich</a>
+                <a href="#" id="milkshakes" class="col-md-12 col-sm-6 col-xs-6">Milkshakes</a>
             </div>
 
             
-            <div id="principal" class="col-md-9 col-sm-6 col-xs-12" >
-                 Loading...
+            <div id="principal" class="col-md-9 col-sm-12 col-xs-12" >
+                 <h4 class="hidden-md hidden-sm hidden-xs">
+                    <br><br><br>
+                 </h4>
                 
                 <!-- 1. SALUD -->
                 <!-- Primera Linea -->
-                <div class="row" >
-                    <br><br><br>
+                <div class="row" style="margin-left: 5px;">
+                    
                   <h3> HELADERIA CHOCOCHIPS </h3>
                   <hr>
 
